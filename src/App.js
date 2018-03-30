@@ -23,8 +23,8 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            isAuthenticated: true,
-            isAuthorized: true
+            isAuthenticated: false,
+            isAuthorized: false
         };
         this.authenticate = this.authenticate.bind(this);
     }
